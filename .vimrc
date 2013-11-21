@@ -3,6 +3,10 @@ set shiftwidth=4 softtabstop=4 tabstop=4 expandtab
 set hlsearch
 set autoindent
 
+if has("syntax")
+  syntax on
+endif
+
 autocmd BufNewFile *.py 0r ~/vitemplates/apache-py.txt
 autocmd BufNewFile *.js 0r ~/vitemplates/apache-js.txt
 autocmd BufNewFile *.h 0r ~/vitemplates/apache-c.txt
