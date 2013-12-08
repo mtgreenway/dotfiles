@@ -2,7 +2,7 @@
 
 for i in $(ls -A)
 do
-    if [[ $i == "install.sh" || $i == ".git" || $i == ".gitignore" ]]
+    if [[ $i == "install.sh" || $i == ".git" || $i == ".gitignore" || $i == "README.rst" ]]
     then
         continue
     fi
