@@ -7,11 +7,11 @@ if has("syntax")
   syntax on
 endif
 
-autocmd BufNewFile *.py 0r ~/vitemplates/apache-py.txt
-autocmd BufNewFile *.js 0r ~/vitemplates/apache-js.txt
-autocmd BufNewFile *.h 0r ~/vitemplates/apache-c.txt
-autocmd BufNewFile *.cpp 0r ~/vitemplates/apache-c.txt
-autocmd BufNewFile *.c 0r ~/vitemplates/apache-c.txt
+autocmd BufNewFile *.py 0r ~/.vitemplates/apache-py.txt
+autocmd BufNewFile *.js 0r ~/.vitemplates/apache-js.txt
+autocmd BufNewFile *.h 0r ~/.vitemplates/apache-c.txt
+autocmd BufNewFile *.cpp 0r ~/.vitemplates/apache-c.txt
+autocmd BufNewFile *.c 0r ~/.vitemplates/apache-c.txt
 autocmd BufNewFile * execute "normal Go"
 
 
