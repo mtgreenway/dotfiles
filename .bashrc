@@ -17,7 +17,7 @@ shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
 HISTSIZE=10000
-HISTFILESIZE=20000
+HISTFILESIZE=""
 
 #HISTIGNORE="history:ls:exit:top:df -h"
 # check the window size after each command and, if necessary,
